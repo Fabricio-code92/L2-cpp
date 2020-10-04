@@ -18,16 +18,17 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+
 void Menu()
 {
     int op;
 
-    cout<<"**************";
-    cout<<"MENU DE JUEGOS";
-    cout<<"**************";
-    cout<<" 1- StarShip";
-    cout<<" 2- Snake";
-    cout<<"Ingrese una opcion del menu para seleccionar un juego";
+    cout<<"**************\n";
+    cout<<"MENU DE JUEGOS\n";
+    cout<<"**************\n";
+    cout<<" 1- StarShip\n";
+    cout<<" 2- Snake\n";
+    cout<<"Ingrese una opcion del menu para seleccionar un juego\n";
     cin>>op;
    
 
